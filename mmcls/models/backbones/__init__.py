@@ -1,5 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from .alexnet import AlexNet
+from .atconv import ATCNet
 from .conformer import Conformer
 from .convmixer import ConvMixer
 from .convnext import ConvNeXt
@@ -42,5 +43,5 @@ __all__ = [
     'Conformer', 'MlpMixer', 'DistilledVisionTransformer', 'PCPVT', 'SVT',
     'EfficientNet', 'ConvNeXt', 'HRNet', 'ResNetV1c', 'ConvMixer',
     'CSPDarkNet', 'CSPResNet', 'CSPResNeXt', 'CSPNet', 'RepMLPNet',
-    'PoolFormer', 'DenseNet', 'VAN'
+    'PoolFormer', 'DenseNet', 'VAN', 'ATCNet'
 ]
